@@ -1,0 +1,25 @@
+@import '../../styles/colors.module.scss';
+
+.logo{
+    height: 100%;
+    padding-left:80px;
+}
+
+.link{
+    color:map-get($neutral, BGrey);
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    align-items: center;
+    position: sticky;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}

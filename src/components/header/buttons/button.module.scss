@@ -1,0 +1,19 @@
+@import '../../../styles/colors.module.scss';
+
+.primary{
+    background-color: map-get($colorShade, $key: shade1 );
+    padding:20px 40px;
+    border:none;
+    color:map-get($neutral, $key: white);
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 5px; 
+}
+
+.arrowRight {
+position: absolute; 
+right: 15px;
+  }
+  
+ 
