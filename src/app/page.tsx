@@ -12,7 +12,8 @@ async function getData() {
     priority,
     changeFrequency,
       title,
-      imageSanity
+      description,
+imageSanity
   }
   `
   const data = await client.fetch(query);
@@ -26,7 +27,7 @@ export default async function Page({params} :
    <> 
        <div>
       {data.map((post:Post, index:any) => (
-        <PostCard key={index} title={post.title} image={post.image} />
+        <PostCard key={index} title={post.title} imageSanity={post.imageSanity} />
       ))}
     </div>
    </>

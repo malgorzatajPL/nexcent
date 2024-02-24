@@ -8,7 +8,7 @@ interface Post{
     changeFrequency: string;
     title: string;
     description:string
-    image: SanityImageType
+    imageSanity: SanityImageType
   }
   
   export default Post;
